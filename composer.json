@@ -1,0 +1,21 @@
+{
+    "name": "goonwood/asldap-auth",
+    "description": "Air-Stream LDAP Authentication Package",
+    "authors": [
+        {
+            "name": "Sam Greenwood",
+            "email": "dragoon@air-stream.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+        "illuminate/auth": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Goonwood\\ASLdapAuth": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
