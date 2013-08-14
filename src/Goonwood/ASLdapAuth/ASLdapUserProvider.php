@@ -2,7 +2,6 @@
 
 use Illuminate\Auth\UserProviderInterface;
 use Illuminate\Auth\UserInterface;
-use Illuminate\Auth\GenericUser;
 
 class ASLDAPUserProvider implements UserProviderInterface {
 
